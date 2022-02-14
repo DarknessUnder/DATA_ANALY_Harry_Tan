@@ -60,3 +60,6 @@ EPILand<-EPI[EPI$Landlock == 1,]
 EPILand
 EPIOcean<-EPI[EPI$Landlock == 0,]
 hist(EPILand)
+
+EPI$EPI_regions
+library(dplyr)
